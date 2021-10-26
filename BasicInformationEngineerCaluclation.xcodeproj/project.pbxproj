@@ -14,6 +14,7 @@
 		EA9BBE422727EC1A00031043 /* BasicInformationEngineerCaluclationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BBE412727EC1A00031043 /* BasicInformationEngineerCaluclationTests.swift */; };
 		EA9BBE4C2727EC1A00031043 /* BasicInformationEngineerCaluclationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BBE4B2727EC1A00031043 /* BasicInformationEngineerCaluclationUITests.swift */; };
 		EA9BBE4E2727EC1A00031043 /* BasicInformationEngineerCaluclationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BBE4D2727EC1A00031043 /* BasicInformationEngineerCaluclationUITestsLaunchTests.swift */; };
+		EA9BBE5C2727ED0000031043 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BBE5B2727ED0000031043 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EA9BBE472727EC1A00031043 /* BasicInformationEngineerCaluclationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicInformationEngineerCaluclationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9BBE4B2727EC1A00031043 /* BasicInformationEngineerCaluclationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationEngineerCaluclationUITests.swift; sourceTree = "<group>"; };
 		EA9BBE4D2727EC1A00031043 /* BasicInformationEngineerCaluclationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationEngineerCaluclationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA9BBE5B2727ED0000031043 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		EA9BBE2F2727EC1900031043 /* BasicInformationEngineerCaluclation */ = {
 			isa = PBXGroup;
 			children = (
+				EA9BBE5A2727ECEA00031043 /* Views */,
 				EA9BBE302727EC1900031043 /* BasicInformationEngineerCaluclationApp.swift */,
 				EA9BBE322727EC1900031043 /* ContentView.swift */,
 				EA9BBE342727EC1A00031043 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				EA9BBE4D2727EC1A00031043 /* BasicInformationEngineerCaluclationUITestsLaunchTests.swift */,
 			);
 			path = BasicInformationEngineerCaluclationUITests;
+			sourceTree = "<group>";
+		};
+		EA9BBE5A2727ECEA00031043 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BBE5B2727ED0000031043 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9BBE5C2727ED0000031043 /* HomeView.swift in Sources */,
 				EA9BBE332727EC1900031043 /* ContentView.swift in Sources */,
 				EA9BBE312727EC1900031043 /* BasicInformationEngineerCaluclationApp.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         
-        VStack(spacing:90) {
+        VStack(spacing: 90) {
             //title
             VStack {
                 Text("基本情報技術者試験")
